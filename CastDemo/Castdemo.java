@@ -10,4 +10,7 @@ class CastDemo
         x = 10.0;
         y = 3.0;
 
-        i = 
+        i = (int) (x/y); //truncation will occur here
+        System.out.println("Integer outcome of x / y: " + i);
+
+
