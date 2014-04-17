@@ -21,7 +21,7 @@ class CastDemo
         b = (byte) i; //byte cannot hold 257
         System.out.println("Value of b: " + B);
 
-        b = 88 //ASCII code for X
+        b = 88; //ASCII code for X
         ch = (char) b;  //the byte gets converted to char value
         System.out.println("ch: " + ch);
     }
