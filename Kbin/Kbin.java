@@ -3,7 +3,6 @@ import java.util.Scanner;
 class Kbin
 {
 	public static void main(String[] Args)
-		throws java.io.IOException
 		{
 			String  input;
 
@@ -13,6 +12,6 @@ class Kbin
 
 			input = in.nextLine();
 
-			System.out.println("Your String is: " + input);
+			System.out.println("Your String" + input);
 		}
 }
