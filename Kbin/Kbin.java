@@ -13,6 +13,6 @@ class Kbin
 
 			input = in.nextLine();
 
-			System.out.println("Your key is: " + input);
+			System.out.println("Your String is: " + input);
 		}
 }
