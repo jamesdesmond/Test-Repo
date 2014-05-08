@@ -1,14 +1,18 @@
+import java.util.Scanner;
+
 class Kbin
 {
 	public static void main(String[] Args)
 		throws java.io.IOException
 		{
-			char ch;
+			String  input;
 
-			System.out.print("Press a key followed by ENTER: ");
+			Scanner in = new Scanner(System.in);
 
-			ch = (char)  System.in.read(); //get a char
+			System.out.println("Input a string.");
 
-			System.out.println("Your key is: " + ch);
+			input = in.nextLine();
+
+			System.out.println("Your key is: " + input);
 		}
 }
